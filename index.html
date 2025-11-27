@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tutorial Belajar Microsoft Office</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Tutorial Belajar Microsoft Word, Excel, dan PowerPoint — desain modern dan responsif." />
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container nav-row">
+      <a class="brand" href="#home">MS Office Tutor</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#word" class="nav-link">WORD</a></li>
+          <li><a href="#excel" class="nav-link">EXCEL</a></li>
+          <li><a href="#powerpoint" class="nav-link">POWERPOINT</a></li>
+          <li><a href="#about" class="nav-link">TENTANG</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal-up">
+          <h1>Tutorial Belajar Microsoft Office</h1>
+          <p class="lead">Website ini dibuat untuk membantu teman-teman memahami Word, Excel, dan PowerPoint dengan cara yang mudah dan cepat.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#word">Mulai Belajar</a>
+            <a class="btn ghost" href="#about">Tentang</a>
+          </div>
+        </div>
+        <div class="hero-image reveal-up delay">
+          <img src="images/ofice.jpg" alt="Ilustrasi belajar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WORD SECTION -->
+    <section id="word" class="section">
+      <div class="container">
+        <h2 class="section-title">Tutorial Microsoft Word</h2>
+        <p class="section-sub">Panduan langkah demi langkah dan shortcut penting untuk menguasai Word.</p>
+
+        <div class="grid-2">
+          <div class="card reveal-up card-clickable" data-modal="word-1">
+            <h3>Cara dasar & format</h3>
+            <ul class="dot-list">
+              <li>Cara membuat paragraf rapi</li>
+              <li>Cara mengatur margin</li>
+              <li>Cara menyisipkan tabel dan gambar</li>
+              <li>Cara membuat cover otomatis</li>
+            </ul>
+          </div>
+
+          <div class="card reveal-up delay card-clickable" data-modal="word-2">
+            <h3>Fitur lanjutan</h3>
+            <ul class="dot-list">
+              <li>Cara membuat daftar isi otomatis</li>
+              <li>Cara menggunakan header & footer</li>
+              <li>Cara memberi nomor halaman</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion" id="word-accordion">
+          <div class="accordion-item">
+            <button class="accordion-head">Kombinasi Keyboard Word</button>
+            <div class="accordion-body">
+              <table class="shortcut-table">
+                <tr><td>Ctrl + B</td><td>Bold</td></tr>
+                <tr><td>Ctrl + I</td><td>Italic</td></tr>
+                <tr><td>Ctrl + U</td><td>Underline</td></tr>
+                <tr><td>Ctrl + A</td><td>Select All</td></tr>
+                <tr><td>Ctrl + S</td><td>Save</td></tr>
+                <tr><td>Ctrl + P</td><td>Print</td></tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-head">Langkah membuat daftar isi otomatis</button>
+            <div class="accordion-body">
+              <ol>
+                <li>Beri heading pada judul bab (Heading 1 / Heading 2).</li>
+                <li>Pilih tab <strong>References</strong> &gt; <strong>Table of Contents</strong>.</li>
+                <li>Pilih format daftar isi yang diinginkan.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-head">Menyisipkan tabel & gambar</button>
+            <div class="accordion-body">
+              <p>Pilih <strong>Insert</strong> &gt; <strong>Table</strong> atau <strong>Pictures</strong>, lalu atur ukuran dan format. Gunakan <em>Wrap Text</em> untuk tata letak gambar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXCEL SECTION -->
+    <section id="excel" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Tutorial Microsoft Excel</h2>
+        <p class="section-sub">Rumus, shortcut, dan tips untuk bekerja cepat di Excel.</p>
+
+        <div class="grid-3">
+          <div class="card reveal-up card-clickable" data-modal="excel-1">
+            <h4>Rumus dasar</h4>
+            <ul>
+              <li>SUM — Menjumlahkan nilai: <code>=SUM(A1:A10)</code></li>
+              <li>AVERAGE — Rata-rata: <code>=AVERAGE(A1:A10)</code></li>
+              <li>MAX / MIN — Nilai tertinggi/rendah</li>
+            </ul>
+          </div>
+
+          <div class="card reveal-up delay card-clickable" data-modal="excel-2">
+            <h4>Rumus menengah</h4>
+            <ul>
+              <li>IF: <code>=IF(A1>10,"Yes","No")</code></li>
+              <li>VLOOKUP: <code>=VLOOKUP(key, table, col, FALSE)</code></li>
+              <li>HLOOKUP, COUNTIF, SUMIF</li>
+            </ul>
+          </div>
+
+          <div class="card reveal-up card-clickable" data-modal="excel-3">
+            <h4>Tips & Shortcut</h4>
+            <ul>
+              <li>Ctrl + Shift + L = Filter</li>
+              <li>Ctrl + Arrow Key = Lompat data</li>
+              <li>F2 = Edit cell</li>
+              <li>Ctrl + ; = Masukkan tanggal</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="mt">Tabel ringkasan rumus</h3>
+        <div class="table-wrap reveal-up delay">
+          <table class="data-table">
+            <thead>
+              <tr><th>Rumus</th><th>Contoh</th><th>Kegunaan</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>SUM</td><td><code>=SUM(B2:B10)</code></td><td>Menjumlahkan rentang</td></tr>
+              <tr><td>AVERAGE</td><td><code>=AVERAGE(C2:C10)</code></td><td>Rata-rata</td></tr>
+              <tr><td>VLOOKUP</td><td><code>=VLOOKUP(A2,$F$2:$G$20,2,FALSE)</code></td><td>Mencari data vertikal</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- POWERPOINT SECTION -->
+    <section id="powerpoint" class="section">
+      <div class="container">
+        <h2 class="section-title">Tutorial Microsoft PowerPoint</h2>
+        <p class="section-sub">Membuat presentasi profesional dengan desain yang efektif.</p>
+
+        <div class="grid-2">
+          <div class="card reveal-up card-clickable" data-modal="ppt-1">
+            <h4>Cara membuat slide profesional</h4>
+            <ul>
+              <li>Gunakan template konsisten</li>
+              <li>Batasi teks, lebihkan visual</li>
+              <li>Gunakan slide master untuk konsistensi</li>
+            </ul>
+          </div>
+
+          <div class="card reveal-up delay card-clickable" data-modal="ppt-2">
+            <h4>Animasi & transisi</h4>
+            <ul>
+              <li>Pilih animasi sederhana</li>
+              <li>Jangan terlalu banyak efek</li>
+              <li>Gunakan transisi konsisten</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ppt-grid reveal-up">
+          <div class="ppt-item card-clickable" data-modal="ppt-3">
+            <img src="images/desain.jpg" alt="Slide design"/>
+            <p>Cara membuat grafik dan chart</p>
+          </div>
+          <div class="ppt-item delay card-clickable" data-modal="ppt-4">
+            <img src="images/tips.jpg" alt="Presentation tips"/>
+            <p>Tips presentasi yang efektif</p>
+          </div>
+        </div>
+
+        <div class="card mt card-clickable" data-modal="ppt-5">
+          <h4>Shortcut PowerPoint</h4>
+          <ul>
+            <li>Ctrl + M = Slide baru</li>
+            <li>Ctrl + D = Duplicate</li>
+            <li>Shift + F5 = Mulai presentasi dari slide sekarang</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div class="about-card reveal-up">
+          <h2>TENTANG</h2>
+          <p>“Website ini dibuat oleh Riski, siswa kelas XI TKJ.
+          Tujuan dari website ini adalah untuk membantu teman-teman memahami dan mempelajari Microsoft Office dengan cara yang mudah dan jelas. Website ini dibuat dengan komitmen untuk berbagi ilmu dan saling membantu.”</p>
+
+          <div class="author">
+            <img src="images/GW N.jpg" alt="Foto pembuat" class="author-photo"/>
+            <div>
+              <strong>Riski</strong>
+              <p>Siswa Kelas XI TKJ</p>
+              <div class="social">
+                <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+                <a href="#" aria-label="Twitter" class="social-link">Twitter</a>
+                <a href="#" aria-label="GitHub" class="social-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image reveal-up delay">
+          <img src="images/gw2.jpg" alt="Ilustrasi tentang"/>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>Copyright © <span id="year"></span> RISKI - SMK Al Muhtar. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay"></div>
+  <div class="modal" id="modal">
+    <button class="modal-close">&times;</button>
+    <div class="modal-content" id="modalContent">
+      <!-- Content populated by JS -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
